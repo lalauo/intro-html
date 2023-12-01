@@ -1,0 +1,120 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(237, 227, 212);
+}
+
+header,
+footer {
+  text-align: center;
+}
+
+h1 {
+  font-size: 80px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.sade-through-the-years {
+  margin-bottom: 0;
+}
+
+.complete-discography {
+  font-size: 30px;
+}
+
+.legend,
+.sade-facts {
+  list-style-type: none;
+  line-height: 22px;
+}
+
+.legend > div {
+  font-weight: bold;
+  font-size: 25px;
+  display: inline-flex;
+  padding: 10px;
+  margin: auto;
+}
+
+.sade-facts {
+  text-align: center;
+}
+
+.sade-bio {
+  width: 50%;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: black 1px solid;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.bio-source {
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+.discography {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.albums {
+  list-style-type: none;
+  line-height: 22px;
+}
+
+.grid-container {
+  display: grid;
+  margin-left: 300px;
+}
+
+#eighties {
+  grid-column: 1 / span 5;
+}
+
+#nineties {
+  grid-column: 4 / span 5;
+}
+
+#naughties {
+  grid-column: 7 / span 5;
+  margin-bottom: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(148, 24, 24);
+  font-weight: 800;
+}
+
+.link:hover {
+  color: rgb(111, 147, 211);
+}
+
+button {
+  background-color: rgb(111, 147, 211);
+  border: rgb(111, 147, 211) 1px solid;
+  border-radius: 3px;
+  padding: 8px;
+}
+
+button:hover {
+  background-color: rgb(148, 24, 24);
+  color: rgb(111, 147, 211);
+  transition: 0.4s;
+}
+
+.buttons {
+  margin-left: 50px;
+  margin-bottom: 60px;
+}
